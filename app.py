@@ -8,7 +8,7 @@ import requests
 from flask_cors import CORS,cross_origin
 import pymongo
 
-client1=pymongo.MongoClient("mongodb+srv://anshikasaxena2811:dv5118tx@cluster0.sftlm9o.mongodb.net/?retryWrites=true&w=majority")
+client1=pymongo.MongoClient("mongodb+srv://anshikasaxena2811:password@cluster0.sftlm9o.mongodb.net/?retryWrites=true&w=majority")
 db=client1.test
 db=client1["my_data"]
 coll=db["my_collection"]
